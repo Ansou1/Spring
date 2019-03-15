@@ -7,7 +7,14 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.ansou.spring"/>
+    <!-- Define your dependency -->
+    <bean id="myFortuneService" class="com.ansou.spring.HappyFortuneService">
+    </bean>
+
+    <!-- Inject beans -->
+    <bean id="myCoach" class="com.ansou.spring.TrackCoach" scope="prototype">
+        <constructor-arg ref="myFortuneService"/>
+    </bean>
 
 </beans>
 

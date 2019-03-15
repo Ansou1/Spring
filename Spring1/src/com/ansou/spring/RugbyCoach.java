@@ -2,32 +2,31 @@ package com.ansou.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
-public class FootballCoach implements Coach {
-
+public class RugbyCoach implements Coach {
+    @Autowired
+    @Qualifier("randomFortuneService")
     private FortuneService fortuneService;
     private String email;
     private String teamName;
 
-    public FootballCoach() {
+    public RugbyCoach() {
     }
 
-    public FootballCoach(FortuneService fortuneService) {
+    public RugbyCoach(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
     }
 
     @Override
-    public String getDailyWorkout() { return "Run 10 times around the field, then 100 penalty shoot training for everyone"; }
+    public String getDailyWorkout() {
+        return "Training pick and go";
+    }
 
     @Override
-    public String getDailyFortune() { return "You won't be Zidane in thee future"; }
-
-    public void setFortuneService(FortuneService fortuneService) {
-        System.out.println("FootballCoach");
-        this.fortuneService = fortuneService;
+    public String getDailyFortune() {
+        return "All black in the place for today.";
     }
 
     public String getEmail() {
