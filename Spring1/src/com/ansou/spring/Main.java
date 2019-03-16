@@ -50,9 +50,51 @@ public class Main {
 
         context.close();
         */
+
+        //Read spring config java class
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);
-        SportConfig myConfSport = context.getBean("sportConfig", SportConfig.class);
-        myConfSport.displayText();
+        SwimCoach theCoach = context.getBean("swimCoach", SwimCoach.class);
+        System.out.println(theCoach.getDailyFortune());
+        System.out.println(theCoach.getDailyWorkout());
+        System.out.println(theCoach.getEmail());
+        System.out.println(theCoach.getTeam());
         context.close();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

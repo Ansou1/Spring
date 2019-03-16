@@ -1,13 +1,24 @@
 package com.ansou.spring;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("com.ansou.spring")
+//@ComponentScan("com.ansou.spring")
+@PropertySource("classpath:sport.properties")
 public class SportConfig {
 
-    void displayText() {
-        System.out.println("Here is my file for the conf sport.");
+    // define bean for our sad fortune service
+    @Bean
+    public FortuneService sadFortuneService() {
+        return new SadFortuneService();
+    }
+
+    //define bean for our swim coach and inject dependency
+    @Bean
+    public Coach swimCoach() {
+        return new SwimCoach(sadFortuneService());
     }
 }
