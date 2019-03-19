@@ -52,11 +52,11 @@ public class Main {
         */
 
         //Read spring config java class
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);
-        SwimCoach theCoach = context.getBean("swimCoach", SwimCoach.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfigActivity.class);
+        HandballCoach theCoach = context.getBean("newCoach", HandballCoach.class);
         System.out.println(theCoach.getDailyFortune());
         System.out.println(theCoach.getDailyWorkout());
-        System.out.println(theCoach.getEmail());
+        System.out.println(theCoach.getMail());
         System.out.println(theCoach.getTeam());
         context.close();
     }
