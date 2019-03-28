@@ -9,9 +9,9 @@
           <element id="module-output" name="SpringMVC" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="javax.persistence-api-2.2" />
           <element id="library" level="project" name="spring-websocket-5.1.5.RELEASE-javadoc" />
-          <element id="library" level="project" name="javax.servlet-api-3.0.1" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-api-1.2.1" />
+          <element id="library" level="project" name="javax.persistence-api-2.2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="SpringMVC/web/Web" />

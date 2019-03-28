@@ -22,9 +22,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="javax.persistence-api-2.2" level="project" />
     <orderEntry type="library" name="spring-websocket-5.1.5.RELEASE-javadoc" level="project" />
+    <orderEntry type="library" name="javax.servlet.jsp.jstl-api-1.2.1" level="project" />
     <orderEntry type="library" name="javax.servlet-api-3.0.1" level="project" />
-    <orderEntry type="library" name="javax.servlet-api-3.0.11" level="project" />
+    <orderEntry type="library" name="javax.persistence-api-2.2" level="project" />
   </component>
 </module>
