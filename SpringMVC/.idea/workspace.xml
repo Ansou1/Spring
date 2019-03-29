@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="253b9b4b-738b-436a-8722-77c3a38220dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_persistence_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javax_persistence_api_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_3_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_3_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spring_websocket_5_1_5_RELEASE_javadoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/spring_websocket_5_1_5_RELEASE_javadoc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,20 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,9 +144,9 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" />
-        <option value="$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/com/ansou/spring/mvc/Customer.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" />
+        <option value="$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java" />
       </list>
     </option>
   </component>
@@ -230,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553781874341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553870103764" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -485,12 +480,12 @@
       <updated>1552968994396</updated>
       <workItem from="1552969015533" duration="16147000" />
       <workItem from="1553654617067" duration="22333000" />
-      <workItem from="1553781578859" duration="203000" />
+      <workItem from="1553781578859" duration="1899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38683000" />
+    <option name="totallyTimeSpent" value="40379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,8 +498,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1105" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.16932908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925262" visible="true" weight="0.16932908" />
       <window_info id="Structure" order="1" sideWeight="0.50223213" side_tool="true" weight="0.24357754" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -675,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -694,8 +680,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="210">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ansou/spring/mvc/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -765,6 +761,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
