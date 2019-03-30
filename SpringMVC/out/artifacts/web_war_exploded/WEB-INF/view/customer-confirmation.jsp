@@ -8,8 +8,11 @@
 
 <body>
     The customer data: <br>
-    ${customer.firstName} <br>
-    ${customer.lastName} <br>
+    FirstName: ${customer.firstName} <br>
+    LastName: ${customer.lastName} <br>
+    Passes: ${customer.freePasses} <br>
+    Postal Code: ${customer.postalCode} <br>
+    Course Code: ${customer.courseCode} <br>
 </body>
 
 </html>
