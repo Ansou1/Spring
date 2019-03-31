@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="253b9b4b-738b-436a-8722-77c3a38220dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/ansou/spring/mvc/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ansou/spring/mvc/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="253b9b4b-738b-436a-8722-77c3a38220dc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553945964746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554020483193" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -517,12 +512,12 @@
       <updated>1552968994396</updated>
       <workItem from="1552969015533" duration="16147000" />
       <workItem from="1553654617067" duration="22333000" />
-      <workItem from="1553781578859" duration="13043000" />
+      <workItem from="1553781578859" duration="13612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51523000" />
+    <option name="totallyTimeSpent" value="52092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +542,7 @@
       <window_info id="Web" order="7" sideWeight="0.5007474" side_tool="true" weight="0.3505618" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2379072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2379072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,7 +552,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.28653625" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32971373" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32971373" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
