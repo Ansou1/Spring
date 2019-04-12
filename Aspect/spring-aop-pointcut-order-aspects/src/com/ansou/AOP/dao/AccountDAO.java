@@ -4,6 +4,9 @@ import org.springframework.stereotype.Component;
 
 import com.ansou.AOP.Account;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class AccountDAO {
 
@@ -42,7 +45,27 @@ public class AccountDAO {
 		this.serviceCode = serviceCode;
 	}
 	
-	
+	public List<Account> findAccounts(boolean b) {
+
+		if (b) {
+			System.out.println("Here");
+			throw new RuntimeException("No food for jagi");
+		}
+
+		List<Account> myAccounts = new ArrayList<>();
+
+		Account temp1 = new Account("John", "Silver");
+		Account temp2 = new Account("Lucas", "Diamond");
+		Account temp3 = new Account("Antoine", "Gold");
+		Account temp4 = new Account("Simon", "God");
+
+		myAccounts.add(temp1);
+		myAccounts.add(temp2);
+		myAccounts.add(temp3);
+		myAccounts.add(temp4);
+
+		return myAccounts;
+	}
 	
 }
 
