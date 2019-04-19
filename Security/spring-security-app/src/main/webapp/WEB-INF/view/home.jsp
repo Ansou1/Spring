@@ -1,16 +1,43 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: simondaguenet
-  Date: 2019-04-18
-  Time: 01:24
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Home</title>
 </head>
 <body>
-    It's the home here
+    It's the home here!!!!
+
+    <hr>
+
+    <p>
+        User: <security:authentication property="principal.username" />
+        <br><br>
+        Role(s): <security:authentication property="principal.authorities" />
+    </p>
+
+    <hr>
+    <security:authorize access="hasRole('Manager')">
+        <p>
+            <a href="${pageContext.request.contextPath}/leaders" >Leadership meeting</a>
+            (only for managers)
+        </p>
+    </security:authorize>
+
+    <br><br>
+
+    <security:authorize access="hasRole('Admin')">
+        <p>
+            <a href="${pageContext.request.contextPath}/systems" >System meeting</a>
+            (only for admin)
+        </p>
+    </security:authorize>
+
+
+    <form:form action="${pageContext.request.contextPath}/logout" method="post">
+        <input type="submit" value="Logout" />
+    </form:form>
+
 </body>
 </html>
