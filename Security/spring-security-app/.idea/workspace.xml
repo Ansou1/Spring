@@ -8,16 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c95fc279-4b5c-45f3-8635-7ecaa7cf052a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Aspect/spring-aop-pointcut-order-aspects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aspect/spring-aop-pointcut-order-aspects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ansou/springsecurity/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ansou/springsecurity/controller/DemoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-app.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-app.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/classes/com/ansou/springsecurity/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/classes/com/ansou/springsecurity/controller/DemoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/view/home.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="540">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -317,7 +307,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555697965305" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555795718358" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -424,16 +414,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555505688073</updated>
-      <workItem from="1555505691973" duration="25763000" />
+      <workItem from="1555505691973" duration="27122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25763000" />
+    <option name="totallyTimeSpent" value="27122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1092" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -569,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        <state relative-caret-position="540">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
