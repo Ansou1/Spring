@@ -18,7 +18,7 @@
     </p>
 
     <hr>
-    <security:authorize access="hasRole('Manager')">
+    <security:authorize access="hasRole('MANAGER')">
         <p>
             <a href="${pageContext.request.contextPath}/leaders" >Leadership meeting</a>
             (only for managers)
@@ -27,7 +27,7 @@
 
     <br><br>
 
-    <security:authorize access="hasRole('Admin')">
+    <security:authorize access="hasRole('ADMIN')">
         <p>
             <a href="${pageContext.request.contextPath}/systems" >System meeting</a>
             (only for admin)
