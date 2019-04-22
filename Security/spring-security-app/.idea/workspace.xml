@@ -6,20 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c95fc279-4b5c-45f3-8635-7ecaa7cf052a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aspect/spring-aop-pointcut-order-aspects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aspect/spring-aop-pointcut-order-aspects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansou/springsecurity/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ansou/springsecurity/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ansou/springsecurity/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-app.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-app.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/classes/com/ansou/springsecurity/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/classes/com/ansou/springsecurity/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/classes/com/ansou/springsecurity/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-app/WEB-INF/classes/com/ansou/springsecurity/config/SecurityConfig.class" afterDir="false" />
-    </list>
+    <list default="true" id="c95fc279-4b5c-45f3-8635-7ecaa7cf052a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/persistence-mysql.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -316,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555858887522" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555940283277" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -427,16 +414,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555505688073</updated>
-      <workItem from="1555505691973" duration="42786000" />
+      <workItem from="1555505691973" duration="44505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42786000" />
+    <option name="totallyTimeSpent" value="44505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1092" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -457,7 +443,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -592,7 +578,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/persistence-mysql.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
