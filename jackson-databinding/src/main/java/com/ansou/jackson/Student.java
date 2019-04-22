@@ -1,5 +1,7 @@
 package com.ansou.jackson;
 
+import java.util.Arrays;
+
 public class Student {
 
     private int id;
@@ -10,13 +12,19 @@ public class Student {
 
     private boolean active;
 
+    private Address address;
+
+    private String[] languages;
+
     public Student() {
     }
 
-    public Student(String firstName, String lastName, boolean active) {
+    public Student(String firstName, String lastName, boolean active, Address address, String[] languages) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.active = active;
+        this.address = address;
+        this.languages = languages;
     }
 
     public int getId() {
@@ -49,5 +57,33 @@ public class Student {
 
     public void setActive(boolean active) {
         this.active = active;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public String[] getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(String[] languages) {
+        this.languages = languages;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", active=" + active +
+                ", address=" + address +
+                ", languages=" + Arrays.toString(languages) +
+                '}';
     }
 }
