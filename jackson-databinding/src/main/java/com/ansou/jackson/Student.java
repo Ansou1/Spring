@@ -1,7 +1,10 @@
 package com.ansou.jackson;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.Arrays;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
 
     private int id;
