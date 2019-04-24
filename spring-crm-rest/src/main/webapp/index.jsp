@@ -5,6 +5,11 @@
 
 <hr>
 
+<a href="api/customers" >List of customers</a>
+
+<hr>
+
+<a href="api/customers" >List of customers</a>
 
 </body>
 </html>

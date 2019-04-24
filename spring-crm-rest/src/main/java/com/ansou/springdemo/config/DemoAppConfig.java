@@ -27,7 +27,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("com.luv2code.springdemo")
+@ComponentScan("com.ansou.springdemo")
 @PropertySource({ "classpath:persistence-mysql.properties" })
 public class DemoAppConfig implements WebMvcConfigurer {
 
@@ -35,8 +35,6 @@ public class DemoAppConfig implements WebMvcConfigurer {
 	private Environment env;
 	
 	private Logger logger = Logger.getLogger(getClass().getName());
-	
-	// define a bean for ViewResolver
 
 	@Bean
 	public DataSource myDataSource() {
