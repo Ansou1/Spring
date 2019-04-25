@@ -50,7 +50,7 @@ public class CustomerRestController {
         if (theCustomer == null) {
             throw new CustomerNotFoundException("Customer haven't been found into the database for the id: " + customerID);
         }
-        
+
         customerService.deleteCustomer(customerID);
         return "Deleted customer with the id: " + customerID;
     }
