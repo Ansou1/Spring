@@ -1,8 +1,7 @@
-package com.ansou.springboot.CRUD.rest;
+package com.ansou.springboot.CRUDJPA.rest;
 
-import com.ansou.springboot.CRUD.DAO.EmployeeDAO;
-import com.ansou.springboot.CRUD.entity.Employee;
-import com.ansou.springboot.CRUD.service.EmployeeService;
+import com.ansou.springboot.CRUDJPA.entity.Employee;
+import com.ansou.springboot.CRUDJPA.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -53,9 +52,9 @@ public class EmployeeRestController {
         Employee theEmployee = this.employeeService.getEmployeeById(id);
 
         if (theEmployee == null)
-            throw new RuntimeException("Employee is not found for the id:" + id);
+            throw new RuntimeException("Employee is not found for the id: " + id);
 
         this.employeeService.deleteEmployees(id);
-        return "The employee id: " + id + "have been deleted";
+        return "The employee id: " + id + " have been deleted";
     }
 }
